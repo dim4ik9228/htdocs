@@ -61,9 +61,6 @@ class CategoryController extends BaseController
     {
         //dd(__METHOD__);
         $data = $request->input(); //отримаємо масив даних, які надійшли з форми
-        if (empty($data['slug'])) { //якщо псевдонім порожній
-            $data['slug'] = Str::slug($data['title']); //генеруємо псевдонім
-        }
 
         $item = (new BlogCategory())->create($data); //створюємо об'єкт і додаємо в БД
 
@@ -76,7 +73,6 @@ class CategoryController extends BaseController
                 ->withErrors(['msg' => 'Помилка збереження'])
                 ->withInput();
         }
-
     }
 
     /**
@@ -124,11 +120,6 @@ class CategoryController extends BaseController
             return back() //redirect back
             ->withErrors(['msg' => "Запис id=[{$id}] не знайдено"]) //видати помилку
             ->withInput(); //повернути дані
-        }
-
-        $data = $request->all(); //отримаємо масив даних, які надійшли з форми
-        if (empty($data['slug'])) { //якщо псевдонім порожній
-            $data['slug'] = Str::slug($data['title']); //генеруємо псевдонім
         }
 
         $result = $item->update($data);  //оновлюємо дані об'єкта і зберігаємо в БД
