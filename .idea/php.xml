@@ -33,7 +33,6 @@
       <path value="$PROJECT_DIR$/blog/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/blog/vendor/nette/schema" />
       <path value="$PROJECT_DIR$/blog/vendor/nette/utils" />
-      <path value="$PROJECT_DIR$/blog/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/blog/vendor/league/commonmark" />
       <path value="$PROJECT_DIR$/blog/vendor/league/config" />
       <path value="$PROJECT_DIR$/blog/vendor/league/flysystem" />
@@ -51,7 +50,6 @@
       <path value="$PROJECT_DIR$/blog/vendor/dflydev/dot-access-data" />
       <path value="$PROJECT_DIR$/blog/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/blog/vendor/laravel/framework" />
-      <path value="$PROJECT_DIR$/blog/vendor/laravel/sail" />
       <path value="$PROJECT_DIR$/blog/vendor/laravel/sanctum" />
       <path value="$PROJECT_DIR$/blog/vendor/laravel/serializable-closure" />
       <path value="$PROJECT_DIR$/blog/vendor/laravel/tinker" />
@@ -100,7 +98,6 @@
       <path value="$PROJECT_DIR$/blog/vendor/mobiledetect/mobiledetectlib" />
       <path value="$PROJECT_DIR$/blog/vendor/livewire/livewire" />
       <path value="$PROJECT_DIR$/blog/vendor/laravel/jetstream" />
-      <path value="$PROJECT_DIR$/blog/vendor/laravel/fortify" />
       <path value="$PROJECT_DIR$/blog/vendor/maximebf/debugbar" />
       <path value="$PROJECT_DIR$/blog/vendor/dasprid/enum" />
       <path value="$PROJECT_DIR$/blog/vendor/doctrine/deprecations" />
@@ -132,12 +129,15 @@
       <path value="$PROJECT_DIR$/blog/vendor/jaybizzle/crawler-detect" />
       <path value="$PROJECT_DIR$/blog/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/blog/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/uri-template" />
       <path value="$PROJECT_DIR$/blog/vendor/nunomaduro/collision" />
       <path value="$PROJECT_DIR$/blog/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/blog/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/blog/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/blog/vendor/laravel/sail" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
